@@ -17,7 +17,7 @@ This is a minimal, self-hostable Outline setup.
 
 ## Running the Docker Container
 1. Clone this repository.
-2. `mv sample.env .env`
+2. `cp sample.env .env`
 3. Fill `.env` with your organizations details.
 4. `docker compose up -d`.
 

@@ -18,7 +18,7 @@ services:
     networks:
       - outline-internal
     volumes:
-      - ../data/postgres-data:/var/lib/postgresql/data:Z
+      - ./data/postgres-data:/var/lib/postgresql/data:Z
 
   outline:
     image: outlinewiki/outline:latest
@@ -39,6 +39,7 @@ services:
       - REDIS_URL=redis://outline_redis:6379
       - URL=${OUTLINE_URL}
       - PORT=${OUTLINE_PORT}
+      - FORCE_HTTPS=false
     ports:
       - 127.0.0.1:${OUTLINE_PORT}:${OUTLINE_PORT}
     networks:
