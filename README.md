@@ -21,6 +21,8 @@ This is a minimal, self-hostable Outline setup.
 3. Fill `.env` with your organizations details.
 4. `docker compose up -d`.
 
+> You can use `openssl rand -hex 32` to generate random strings.
+
 # See Also
 * [Outline Documentation - Hosting Outline](https://docs.getoutline.com/s/hosting/doc/hosting-outline-nipGaCRBDu)
 * [GitLab Docs - GitLab as OpenID Connect identity provider](https://docs.gitlab.com/ee/integration/openid_connect_provider.html)
