@@ -24,6 +24,8 @@ This is a minimal, self-hostable Outline setup.
 
 > You can use `openssl rand -hex 32` to generate random strings.
 
+> IMPORTANT: This method grants access to **any** GitLab user. If you want to limit access, add a dummy domain under "Allowed domain" in Outline settings.
+
 # See Also
 * [Outline Documentation - Hosting Outline](https://docs.getoutline.com/s/hosting/doc/hosting-outline-nipGaCRBDu)
 * [GitLab Docs - GitLab as OpenID Connect identity provider](https://docs.gitlab.com/ee/integration/openid_connect_provider.html)
