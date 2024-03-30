@@ -5,8 +5,9 @@ This is a minimal, self-hostable Outline setup.
 
 # Setup
 ## Configure a GitLab Application
-1. Create a GitLab [group](https://docs.gitlab.com/ee/user/group/).
-1. In the sidebar, **Settings** > **Applications**. 
+1. Create a GitLab Application.
+	* For User-level applications, click [here](https://gitlab.com/-/user_settings/applications).
+	* For Group-level applications: Go to your Group. In the sidebar, **Settings** > **Applications**.
 2. The redirect URI should look something like `https://example.com/auth/oidc.callback`.
 3. The minimum scopes required are:
 	* `openid`
