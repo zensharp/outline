@@ -8,6 +8,7 @@ This is a minimal, self-hostable Outline setup.
 1. Create a GitLab Application.
 	* For User-level applications, click [here](https://gitlab.com/-/user_settings/applications).
 	* For Group-level applications: Go to your Group. In the sidebar, **Settings** > **Applications**.
+2. Enter a name in "Name". This will be shown to users when they first authenticate through GitLab OIDC.
 2. The redirect URI should look something like `https://example.com/auth/oidc.callback`.
 3. The minimum scopes required are:
 	* `openid`
