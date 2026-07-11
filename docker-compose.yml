@@ -20,7 +20,6 @@ services:
     image: outlinewiki/outline:latest
     user: root
     restart: always
-    command: sh -c "yarn db:migrate --env production-ssl-disabled && yarn start --env=production-ssl-disabled"
     depends_on:
       - outline_postgres
       - outline_redis
